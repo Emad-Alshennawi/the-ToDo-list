@@ -1,0 +1,112 @@
+/* global style*/
+
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+
+/* container style*/
+
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #EEE;
+}
+
+/* header style*/
+
+.header{
+  height: 250px;
+  background-size: cover;
+  background-image: url(../photos/042.jpg);
+  border-radius: 10px 10px 0 0;
+}
+
+
+
+/* the list style*/
+
+
+#list{
+  list-style: none;
+  padding: 40px;
+
+}
+#list .item{
+  display: flow-root;
+  padding: 5px
+}
+
+#list .item .text {
+  padding: 10px;
+  text-transform: capitalize;
+  border-left: 2px solid #474857;
+  float: left;
+  font-weight: bold;
+  width: 75%
+}
+
+#list .item .delete {
+  padding: 10px;
+  background-color: #474857;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  float: right;
+}
+
+#list span:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+
+
+/* form style*/
+
+
+#add-to-do{
+  padding-bottom: 20px;
+}
+#add-to-do #input{
+  width: 70%;
+  padding: 10px;
+  margin-left: 10px;
+  float: left;
+  border: 1px solid white;
+  background: none;
+}
+
+#add-to-do #btn {
+  background: #474857;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #474857;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#add-to-do #btn:hover{
+  transition: background 2s ease-in-out;
+  opacity: .7;
+}
+
+
+/* footer style*/
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer span {
+  font-weight: bolder;
+}
